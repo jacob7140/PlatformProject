@@ -4,3 +4,7 @@ if (lives > 0){
 } else {
 	global.game_over = true;
 }
+
+with (oGun) {
+	instance_destroy();
+}
