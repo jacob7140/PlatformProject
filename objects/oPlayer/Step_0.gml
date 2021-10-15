@@ -12,9 +12,8 @@ if (isMoving) {
 	sprite_index = sPlayer;
 	image_speed = 1;
 } else {
-	//sprite_index = sPlayerIdle;
 	image_speed = 0;
-	image_index = 0;
+	//sprite_index = spr_playerIdle;
 }
 
 if (key_left and !instance_place(x - move_speed, y, oWall)) {
