@@ -11,6 +11,8 @@
     {"id":{"name":"sEnemy3","path":"sprites/sEnemy3/sEnemy3.yy",},"order":2,},
     {"id":{"name":"sEnemy2Bullet","path":"sprites/sEnemy2Bullet/sEnemy2Bullet.yy",},"order":4,},
     {"id":{"name":"spr_nextLevel","path":"sprites/spr_nextLevel/spr_nextLevel.yy",},"order":16,},
+    {"id":{"name":"TileSet0","path":"sprites/TileSet0/TileSet0.yy",},"order":18,},
+    {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},"order":2,},
     {"id":{"name":"oEnemy3","path":"objects/oEnemy3/oEnemy3.yy",},"order":12,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":3,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
