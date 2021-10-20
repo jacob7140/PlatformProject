@@ -8,8 +8,8 @@ text[3] = "Dr. Atom Beaker was the front runner... Here is his story."
 text_current = 0;
 text_last = 3;
 text_width = 300;
-text_x = 50;
-text_y = 50;
+text_x = 700;
+text_y = 360;
 
 char_current = 1;
 char_speed = 0.50;
