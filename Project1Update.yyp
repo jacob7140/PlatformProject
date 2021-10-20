@@ -24,6 +24,7 @@
     {"id":{"name":"spr_playerIdle","path":"sprites/spr_playerIdle/spr_playerIdle.yy",},"order":17,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":15,},
+    {"id":{"name":"s_player_jump","path":"sprites/s_player_jump/s_player_jump.yy",},"order":19,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":4,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":5,},
     {"id":{"name":"enemyDestroy1","path":"sprites/enemyDestroy1/enemyDestroy1.yy",},"order":3,},
@@ -56,10 +57,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Intro","path":"rooms/Intro/Intro.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+    {"roomId":{"name":"Intro","path":"rooms/Intro/Intro.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

@@ -1,5 +1,5 @@
-draw_set_colour($FFBFFBFF)
-draw_rectangle(50, 5, 150, 45, false)
+draw_set_colour(c_dkgray)
+//draw_rectangle(50, 5, 150, 45, false)
 
 /*TODO Write Lives code here */
 for (i = 0; i < lives; i++) {
