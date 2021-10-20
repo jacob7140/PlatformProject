@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":2,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":0,},
+    {"id":{"name":"Intro","path":"rooms/Intro/Intro.yy",},"order":3,},
     {"id":{"name":"obj_blocker","path":"objects/obj_blocker/obj_blocker.yy",},"order":8,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":4,},
     {"id":{"name":"oEnemy2","path":"objects/oEnemy2/oEnemy2.yy",},"order":11,},
@@ -20,6 +21,7 @@
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":10,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"spr_playerIdle","path":"sprites/spr_playerIdle/spr_playerIdle.yy",},"order":17,},
+    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":15,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":4,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":5,},
@@ -29,7 +31,9 @@
     {"id":{"name":"spr_blocker","path":"sprites/spr_blocker/spr_blocker.yy",},"order":11,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":2,},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"order":1,},
+    {"id":{"name":"obj_draw","path":"objects/obj_draw/obj_draw.yy",},"order":16,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
     {"id":{"name":"oEnemy2Bullet","path":"objects/oEnemy2Bullet/oEnemy2Bullet.yy",},"order":14,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"spr_life","path":"sprites/spr_life/spr_life.yy",},"order":13,},
@@ -50,6 +54,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Intro","path":"rooms/Intro/Intro.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
