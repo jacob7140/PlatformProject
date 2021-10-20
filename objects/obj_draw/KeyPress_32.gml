@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @continue text
 // You can write your code in this editor
 var length = string_length(text[text_current]);
 
