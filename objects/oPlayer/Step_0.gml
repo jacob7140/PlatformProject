@@ -8,6 +8,19 @@ if (key_right || key_left) {
 	isMoving = false;
 }
 
+if(key_jump){
+	isJumping = true;
+} else {
+	isJumping = false;
+}
+
+if(isJumping){
+	sprite_index = s_player_jump;
+	image_speed = 1;
+} else {
+	image_speed = 0;
+}
+
 if (isMoving) {
 	sprite_index = sPlayer;
 	image_speed = 1;
@@ -30,6 +43,7 @@ if (key_jump){
 	if (instance_place(x, y + 1, oWall)){
 		vspeed = jump_height;
 	} 
+
 } 
 	
 if (instance_place(x, y + 1, oWall)){
