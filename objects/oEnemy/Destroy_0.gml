@@ -1,0 +1,1 @@
+score += enemy_score;
