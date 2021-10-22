@@ -16,4 +16,4 @@ char_speed = 0.35;
 
 text[text_current] = string_wrap(text[text_current], text_width);
 
-audio_play_sound(intro_sound, 1, true);
+//audio_play_sound(intro_sound, 1, true);
