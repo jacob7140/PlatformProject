@@ -5,8 +5,14 @@ text[1] = "   A nasty pandemic coined 'Budweiservirus' introduced itself";
 text[2] = "   The rush to secure a vaccine was in full force";
 text[3] = "   Dr. Atom Beaker was the front runner... Here is his story."
 
+draw_set_font(Font2);
+draw_set_halign(fa_center);
+draw_set_valign(fa_center);
+
+text[4] = "   press space to continue."
+
 text_current = 0;
-text_last = 3;
+text_last = 4;
 text_width = 300;
 text_x = 960;
 text_y = 540;

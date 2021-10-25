@@ -17,6 +17,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.333964825,"scaleX":0.92,"scaleY":0.91,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":89.0,"y":1034.23267,"resourceVersion":"1.0","name":"inst_40342095","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":0.0,"resourceVersion":"1.0","name":"inst_2336B20C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oGun","path":"objects/oGun/oGun.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":88.26442,"y":1031.23267,"resourceVersion":"1.0","name":"inst_44F7ECF7","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Pause","path":"objects/Pause/Pause.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":672.0,"resourceVersion":"1.0","name":"inst_141A6081","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":120,"SerialiseHeight":68,"TileSerialiseData":[
 247,292,269,104,105,106,107,108,109,110,111,104,105,106,107,108,109,110,111,104,105,106,107,108,109,110,111,104,105,106,107,108,109,110,111,104,105,106,107,108,109,110,111,104,105,106,107,108,109,110,111,104,105,106,107,108,109,110,111,104,105,106,107,108,109,110,111,104,105,106,107,108,109,110,111,104,105,106,107,108,109,110,111,8,9,10,11,12,13,14,15,8,9,10,11,12,13,14,15,8,9,10,11,12,13,14,15,8,9,10,11,12,13,14,15,205,206,1073742072,1073742048,1073742024,
@@ -295,6 +296,7 @@
     {"name":"inst_6DBC175D","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_23BF8FA1","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_45C43718","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_141A6081","path":"rooms/Room2/Room2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

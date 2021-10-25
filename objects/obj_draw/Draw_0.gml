@@ -4,6 +4,7 @@ draw_set_font(Font1);
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 
+
 var length = string_length(text[text_current]);
 if(char_current < length){
 	char_current += char_speed;

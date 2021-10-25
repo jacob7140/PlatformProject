@@ -15,6 +15,7 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":170.0,"y":17.0,"resourceVersion":"1.0","name":"inst_3B9AF674","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Pause","path":"objects/Pause/Pause.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":736.0,"resourceVersion":"1.0","name":"inst_12B34BA","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"score","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":53.0,"y":1011.0,"resourceVersion":"1.0","name":"inst_2660AC71","tags":[],"resourceType":"GMRInstance",},
@@ -287,6 +288,7 @@
     {"name":"inst_518DF3A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1B739585","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_3B9AF674","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_12B34BA","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -294,7 +296,7 @@
     "inheritRoomSettings": false,
     "Width": 1920,
     "Height": 1080,
-    "persistent": false,
+    "persistent": true,
   },
   "viewSettings": {
     "inheritViewSettings": false,
