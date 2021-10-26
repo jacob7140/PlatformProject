@@ -14,7 +14,6 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":1024.0,"resourceVersion":"1.0","name":"inst_7F7D8282","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":0.0,"resourceVersion":"1.0","name":"inst_61ADE908","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Pause","path":"objects/Pause/Pause.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4.0,"y":733.0,"resourceVersion":"1.0","name":"inst_B020A08","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -260,7 +259,6 @@
     {"name":"inst_46D84B75","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_621A7E2A","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_1D6F95A2","path":"rooms/Room3/Room3.yy",},
-    {"name":"inst_7F7D8282","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_61ADE908","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_76CA8DB7","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_2EEB2732","path":"rooms/Room3/Room3.yy",},

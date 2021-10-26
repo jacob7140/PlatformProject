@@ -2,43 +2,51 @@ key_left = keyboard_check(ord("A")) || keyboard_check(vk_left);
 key_right = keyboard_check(ord("D")) || keyboard_check(vk_right);
 key_jump = keyboard_check_pressed(vk_space);
 
-if (key_right || key_left) {
-	isMoving = true;
-	sprite_index = sPlayer;
+var move = key_right - key_left;
+
+hsp = move * move_speed;
+vsp += grv;
+
+if (place_meeting(x, y + 1, oWall) && key_jump) {
+	vsp = jump_height;
+}
+
+//Horizontal section
+if (place_meeting(x + hsp, y, oWall)) {
+	while(!place_meeting(x + sign(hsp), y, oWall)) {
+		x += sign(hsp);
+	}
+    hsp = 0;
+}
+x += hsp;
+
+//Vertical section
+if (place_meeting(x, y + vsp, oWall)) {
+	while(!place_meeting(x, y + sign(vsp), oWall)) {
+		y += sign(vsp);
+	}
+    vsp = 0;
+}
+y += vsp;
+
+//Annimation
+if (!place_meeting(x, y + 1, oWall)) {
+    sprite_index = s_playerMove;
+	image_speed = 0;
+	 if (sign(vsp) > 0) {
+	     image_index = 1;
+	 } else {
+		 image_index = 0;
+	 }
+} else {
 	image_speed = 1;
-} else {
-	isMoving = false;
-	image_speed = 0;
+	if (hsp == 0) {
+	    sprite_index = sPlayer;
+	} else {
+		sprite_index = s_playerMove;
+	}
 }
 
-if(key_jump){
-	isJumping = true;
-	sprite_index = s_player_jump;
-} else {
-	isJumping = false;
-	image_speed = 0;
-}
-
-
-if (key_left and !instance_place(x - move_speed, y, oWall)) {
-	x += -move_speed
-	image_xscale = -1;
-}
-
-if (key_right and !instance_place(x + move_speed, y, oWall)) {
-	x += move_speed
-	image_xscale = 1;
-}
-
-if (key_jump){
-	if (instance_place(x, y + 1, oWall)){
-		vspeed = jump_height;
-	} 
-
-} 
-	
-if (instance_place(x, y + 1, oWall)){
-	gravity = 0;
-} else {
-	gravity = 1;
+if (hsp != 0) {
+   image_xscale = sign(hsp);
 }
