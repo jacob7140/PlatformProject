@@ -4,7 +4,7 @@
 // Inherit the parent event
 event_inherited();
 alarm[0] = room_speed * 2;
-alarm[1] = 2000;
+alarm[1] = 1000;
 
 hspeed = move_speed;
 flash = 0;
