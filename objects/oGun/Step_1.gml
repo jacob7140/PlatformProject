@@ -1,5 +1,5 @@
-x = oPlayer.x + 5;
-y = oPlayer.y + 10;
+x = oPlayer.x;
+y = oPlayer.y;
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 
 firingdelay -= 1;
