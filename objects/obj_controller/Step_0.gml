@@ -10,5 +10,6 @@ if (keyboard_check_pressed(ord("M"))) {
 if (room = title_room) {
 	instance_destroy(obj_controller)
 }
+
 	
 	
