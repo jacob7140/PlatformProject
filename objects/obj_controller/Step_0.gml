@@ -6,5 +6,9 @@ if (keyboard_check_pressed(ord("M"))) {
 	else
 		event_user(1);
 }
+
+if (room = title_room) {
+	instance_destroy(obj_controller)
+}
 	
 	

@@ -1,3 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-room_goto_next();
+if (!instance_exists(oEnemy) and !instance_exists(oEnemy2) and !instance_exists(oEnemy3)){
+	room_goto_next();
+	instance_destroy(obj_vaccine)
+}
