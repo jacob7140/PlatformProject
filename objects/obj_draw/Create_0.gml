@@ -13,7 +13,7 @@ text[4] = "   press space to continue."
 
 text_current = 0;
 text_last = 4;
-text_width = 300;
+text_width = 720;
 text_x = 960;
 text_y = 540;
 

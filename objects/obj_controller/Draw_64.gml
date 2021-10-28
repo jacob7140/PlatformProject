@@ -1,4 +1,4 @@
-draw_set_colour(c_dkgray)
+draw_set_colour(c_white)
 //draw_rectangle(50, 5, 150, 45, false)
 
 /*TODO Write Lives code here */

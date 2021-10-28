@@ -11,6 +11,10 @@ if (place_meeting(x, y + 1, oWall) && key_jump) {
 	vsp = jump_height;
 }
 
+if(key_jump == true){
+	audio_play_sound(Jump, 1, false);
+}
+
 //Horizontal section
 if (place_meeting(x + hsp, y, oWall)) {
 	while(!place_meeting(x + sign(hsp), y, oWall)) {

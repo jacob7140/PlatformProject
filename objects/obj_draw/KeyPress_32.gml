@@ -10,7 +10,7 @@ else
     text_current += 1;
     if (text_current > text_last)
         {
-        room_restart();
+        room_goto_next();
         }
     else
         {

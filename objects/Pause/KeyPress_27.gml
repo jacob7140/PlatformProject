@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // pause button functionality https://developer.amazon.com/blogs/appstore/post/35ad26c8-95df-4033-8a58-70276d1dbe8d/gamemaker-basics-pause-and-unpause
-if(keyboard_check_pressed(vk_escape))
+if(keyboard_check_pressed(vk_alt))
 	{
     paused = !paused;
 }
