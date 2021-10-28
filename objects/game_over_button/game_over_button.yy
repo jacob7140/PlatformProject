@@ -29,7 +29,7 @@
     "path": "folders/Objects/Buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "credits_room_button",
+  "name": "game_over_button",
   "tags": [],
   "resourceType": "GMObject",
 }
