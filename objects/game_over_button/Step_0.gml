@@ -10,5 +10,5 @@ if (_click && script >=0) {
 }
 
 if(_click == true){
-	room_goto(title_room);
+	game_restart();
 }
