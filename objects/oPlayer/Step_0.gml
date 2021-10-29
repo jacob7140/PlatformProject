@@ -15,7 +15,6 @@ if(key_jump == true){
 	audio_play_sound(Jump, 1, false);
 }
 
-//Horizontal section
 if (place_meeting(x + hsp, y, oWall)) {
 	while(!place_meeting(x + sign(hsp), y, oWall)) {
 		x += sign(hsp);
@@ -24,7 +23,6 @@ if (place_meeting(x + hsp, y, oWall)) {
 }
 x += hsp;
 
-//Vertical section
 if (place_meeting(x, y + vsp, oWall)) {
 	while(!place_meeting(x, y + sign(vsp), oWall)) {
 		y += sign(vsp);
@@ -33,7 +31,6 @@ if (place_meeting(x, y + vsp, oWall)) {
 }
 y += vsp;
 
-//Annimation
 if (!place_meeting(x, y + 1, oWall)) {
     sprite_index = s_playerMove;
 	image_speed = 0;
